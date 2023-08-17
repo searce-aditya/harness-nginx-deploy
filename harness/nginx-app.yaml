@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: us-central1-docker.pkg.dev/ps3-pocs/harness-repo/nginx:latest
         ports:
         - containerPort: 80
